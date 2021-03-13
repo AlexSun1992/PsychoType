@@ -17,11 +17,10 @@
     let mainArray = [];
     let Counter = 0;
 
-
-
     for (let i = 0; i < collection.length; i++) {
 
         collection[i].addEventListener('change', function () {
+
             result.removeAttribute('disabled', 'disabled')
         })
 
